@@ -10,9 +10,12 @@ public class InsertDifferentPosition {
 		LinkedList list = new LinkedList();
 		InsertLinkedList list2 = new InsertLinkedList();
 		
-		for(int i =2;i<=10;i++) {
-			list = list2.insert(list, i);
-		}
+		list = list2.insert(list, 12);
+		list = list2.insert(list, 14);
+		list = list2.insert(list, 15);
+		list = list2.insert(list,20);
+		list = list2.insert(list,48);
+		list = list2.insert(list, 150);
 		
 		list2.printList(list);  // print linkedlist 
 		
